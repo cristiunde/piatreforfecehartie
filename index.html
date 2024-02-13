@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js">
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPS</title>
+    <title>
+      RPS
+    </title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<h1 class="heading"> Piatra Foarfeca Hartie </h1>
-
-<div class="continut">
-
-   
-
-    <div class="score">
-
-        
-        <div class="scor-eu">0</div>
-        <div style="margin: 0px 50px">-</div>
-        <div class="scor-calculator">0</div>
-    </div>
-    <div class="message">Let's play a game</div>
-
-
-    <div class="d-flex">
-
-        <div class="card">
-          <div class="card-image" data-image="rock">
-            <img src="images/piatra.png" alt="rock" class="image" height="350" />
+  </head>
+  
+  <body>
+    <div id="tsparticles">
+      <h1 class="heading">
+        Piatra Foarfeca Hartie
+      </h1>
+      <div class="continut">
+        <div class="score">
+          <div class="scor-eu">
+            0
           </div>
-          <div class="card-text">Rock</div>
-        </div>
-
-        <div class="card">
-          <div class="card-image" data-image="paper">
-            <img src="images/hartie.png" alt="paper" class="image"  height="350"/>
+          <div style="margin: 0px 50px">
+            -
           </div>
-          <div class="card-text">Paper</div>
-        </div>
-
-        <div class="card">
-          <div class="card-image" data-image="scissors">
-            <img src="images/foarfeca.png" alt="scissors" class="image" height="350"/>
+          <div class="scor-calculator">
+            0
           </div>
-          <div class="card-text">Scissors</div>
         </div>
-
+        <div class="message">
+          Let's play a game
+        </div>
+        <div class="d-flex">
+          <div class="card">
+            <div class="card-image" data-image="rock">
+              <img src="images/piatra.png" alt="rock" class="image" height="350" />
+            </div>
+            <div class="card-text">
+              Rock
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image" data-image="paper">
+              <img src="images/hartie.png" alt="paper" class="image" height="350" />
+            </div>
+            <div class="card-text">
+              Paper
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image" data-image="scissors">
+              <img src="images/foarfeca.png" alt="scissors" class="image" height="350"
+              />
+            </div>
+            <div class="card-text">
+              Scissors
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </body>
+  <script src="index.js">
+  </script>
 
-
-
-
-
-</div>
-
-</body>
-<script src="index.js"></script>
 </html>
